@@ -1973,6 +1973,7 @@ select.uk-form-width-xsmall {
   transition: 0.1s ease-in-out;
   transition-property: color, background-color, border-color;
 }
+
 .uk-button:not(:disabled) {
   cursor: pointer;
 }
@@ -8882,6 +8883,38 @@ iframe.uk-cover {
   bottom: 0;
   right: 0;
 }
+
+.uk-position-bottom-2{
+  bottom: 30%;
+  left: 12%;
+}
+
+.uk-position-bottom-3{
+  bottom:30%;
+  left:10%;
+}
+
+.uk-position-top-1{
+  top: 15%;
+  left: 5%;
+}
+
+.uk-position-top-2{
+  top: 32%;
+  left: 7%; 
+}
+
+.uk-position-bottom-1{
+  bottom:0;
+  right: 5%;
+}
+
+.uk-position-top-3{
+  left:0;
+  top: 30%;
+}
+
+
 /* Corners
  ========================================================================== */
 .uk-position-top-left {
@@ -8900,6 +8933,9 @@ iframe.uk-cover {
   bottom: 0;
   right: 0;
 }
+
+
+
 /*
  * Center
  * 1. Fix text wrapping if content is larger than 50% of the container.
@@ -12502,4 +12538,11 @@ iframe.uk-cover {
   h3 {
     page-break-after: avoid;
   }
+}
+
+
+.button-bottom{
+  bottom: 0;
+  left:0;
+  right:0;
 }
