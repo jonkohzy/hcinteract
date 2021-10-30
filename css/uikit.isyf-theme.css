@@ -7159,6 +7159,7 @@ ul.uk-nav-sub {
 .uk-height-viewport {
   min-height: 100vh;
 }
+
 /*
  * Pixel
  * Useful for `overflow: auto`
@@ -8795,6 +8796,10 @@ iframe.uk-cover {
  ========================================================================== */
 .uk-padding {
   padding: 30px;
+}
+
+.uk-padding-left{
+  padding-left: 70px;
 }
 /* Desktop and bigger */
 @media (min-width: 1200px) {
