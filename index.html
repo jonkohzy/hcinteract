@@ -33,10 +33,15 @@
         </style>
     </head>
     <body class='disable-select uk-overflow-hidden' style="width: 100%;">
+        <!-- top section -->
         <div id='top_sec' uk-grid>
+
+            <!-- logo -->
             <div class='uk-width-auto'>
                 <img style='padding-top: 5px;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
             </div>  
+
+            <!--image + big ass words -->
             <div id='main-img' class="uk-width-expand uk-position-relative uk-background-cover" style='border-bottom: 20px solid #404040; background-color: #404040;' uk-height-viewport="offset-bottom: 10" uk-parallax='bgy: 70' uk-img>
 
                 <div class='uk-position-bottom uk-grid uk-padding uk-padding-remove-bottom uk-padding-remove-right uk-overflow-hidden' style="height: 80%;" uk-grid>
@@ -73,7 +78,7 @@
                             </div>
                         </div>
     
-                    
+                    <!-- days to SLS -->
                     <div class="uk-margin-bottom uk-width-1-2@m uk-position-relative uk-visible@m">
                         <div class='uk-margin-bottom' style="position: absolute; bottom: 10px; right: 0; width: 60%;">
                             <!-- <div class='uk-block uk-light uk-margin-bottom' style="min-width: fit-content; text-align: left;">
@@ -101,20 +106,53 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- days to SLS (mobile) -->
+                    <!-- <div class='uk-section uk-section uk-margin-large-top uk-padding-remove-bottom uk-hidden@m'>
+                        <div class='uk-block uk-light uk-margin-bottom' style="min-width: fit-content; text-align: right;">
+                            <span class="uk-inline-block uk-margin-remove-bottom uk-icon-image uk-icon" style="background-image: url(images/calendar.png); color: #404040; filter: invert(100%);"></span>
+                            <h4 class="uk-inline-block uk-text-bold uk-margin-remove-bottom uk-margin-remove-top uk-margin-small-left uk-margin-right" style="color: #404040;">19 to 22 January 2021</h4>
+                        </div>
+                        <div class='uk-grid-collapse uk-child-width-expand uk-text-center uk-block' style="min-width: fit-content; background-color: #404040; height: min-content;" uk-grid>
+                            <div class='uk-grid-collapse uk-child-width-expand@s uk-text-center uk-block' style="min-width: fit-content; background-color: #404040; height: min-content;" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-background-muted" style="padding-left: 35px; padding-right: 35px; padding-top: 25px; padding-bottom: 25px">
+                                        <h1 class='uk-text-bold uk-margin-remove-bottom' style='color: #00D490;' id='days_'>--</h1>
+                                        <h7 class='uk-margin-remove-top uk-margin-remove-bottom' style='color: #00D490;'>month</h7>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand uk-inline">
+                                    <div class="uk-background-secondary uk-padding-small" style="padding-left: 35px; padding-right: 35px; padding-top: 25px; padding-bottom: 25px">
+                                        <h1 class='uk-text-bold uk-margin-remove-bottom uk-position-center' style='color: #808080;' id='hours_'>6<sup>th</sup> to 7<sup>th</sup> December 2021</h1>
+                                        <p class='uk-text-bold uk-margin-remove-bottom uk-margin-small-top uk-margin-left uk-position-top-left' style='color: #808080; font-size: 80%;'>SLS coming on:</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-background-secondary uk-padding">
+                                        <h2 class='uk-text-bold uk-heading-small uk-margin-remove-bottom' style='color: #808080;' id='minutes'>--</h2>
+                                        <h3 class='uk-margin-remove-top uk-margin-remove-bottom' style='color: #808080;'>Minutes</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
 
+                <!--navbar -->
                 <div id='top_nav_container' class='uk-position-top uk-visible@m'>
                     <nav class='uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left' uk-navbar>
                         <div class="uk-navbar-left uk-padding-small uk-padding-remove-left">
                             <ul class="uk-navbar-nav">
                                 <li class='uk-text-bold uk-active uk-margin-large-right'><a style='text-transform: capitalize;' href="index.html">Home</a></li>
-                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="about.html">About</a></li>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="programmes.html">Programmes</a></li>
-                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="profiles_speakers.html"  onmouseover='showProfiles("profilesBar")'>Profiles</a></li>
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="profiles_speakers.html"  onmouseover='showProfiles("profilesBar")'>Our Speakers</a></li>
                                 <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="media_gallery.html" onmouseover='showProfiles("mediaBar")'>Media</a></li>
-                                <li class='uk-text-bold '><a style='text-transform: capitalize;' href="info.html">Info</a></li>
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="info.html">About us</a></li>
+                                <li class='uk-text-bold uk-margin-large-right'><a style='text-transform: capitalize;' href="info.html">Join us</a></li>
                             </ul>
                         </div>
+
+                        <!-- socials -->
                         <div class="uk-navbar-right uk-padding-small uk-padding-remove-right">
                             <ul id='icon_list' class="uk-iconnav">
                                 <li><a href="https://www.facebook.com/isyfdigital.2021" class="uk-margin-small-right uk-background-secondary" style="padding: 10px; border-radius: 15px;" uk-icon="facebook"></a></li>
@@ -124,7 +162,8 @@
                         </div>
                     </nav>
 
-                    <nav id='profilesBar' onmouseleave="hideProfiles('profilesBar')" class='uk-navbar-container uk-padding uk-navbar-transparent uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left  uk-visible@m' style="display: none;" uk-navbar>
+                    <!-- profilesBar -->
+                    <!-- <nav id='profilesBar' onmouseleave="hideProfiles('profilesBar')" class='uk-navbar-container uk-padding uk-navbar-transparent uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left  uk-visible@m' style="display: none;" uk-navbar>
                         <div class="uk-navbar-left uk-padding-small uk-padding-remove-left uk-margin-bottom">
                             <ul class="uk-nav uk-inline">
                                 <li class='uk-margin-large-right uk-inline'>
@@ -147,8 +186,10 @@
                                 </li>
                             </ul>
                         </div>
-                    </nav>
-                    <nav id='mediaBar' onmouseleave="hideProfiles('mediaBar')" class='uk-navbar-container uk-padding uk-navbar-transparent uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left uk-visible@m' style="display: none;" uk-navbar>
+                    </nav> -->
+
+                    <!-- mediaBar -->
+                    <!-- <nav id='mediaBar' onmouseleave="hideProfiles('mediaBar')" class='uk-navbar-container uk-padding uk-navbar-transparent uk-padding-remove-top uk-padding-remove-bottom uk-margin-small-left uk-visible@m' style="display: none;" uk-navbar>
                         <div class="uk-navbar-left uk-padding-small uk-padding-remove-left uk-margin-bottom">
                             <ul class="uk-nav uk-inline">
                                 <li class='uk-margin-large-right uk-inline'>
@@ -165,7 +206,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </nav>
+                    </nav> -->
                 </div>
 
                 <span  href="#offcanvas-slide" class="uk-button uk-hidden@m uk-padding-small" style="color: white; height: fit-content;" uk-toggle uk-icon="icon: menu; ratio: 1.5;"></span>
@@ -248,15 +289,15 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
 
-        <div class='uk-section uk-section uk-margin-large-top uk-padding-remove-bottom uk-hidden@m'>
-            <!-- <div class='uk-block uk-light uk-margin-bottom' style="min-width: fit-content; text-align: right;">
+        <!-- days to SLS (mobile) -->
+        <!-- <div class='uk-section uk-section uk-margin-large-top uk-padding-remove-bottom uk-hidden@m'>
+            <div class='uk-block uk-light uk-margin-bottom' style="min-width: fit-content; text-align: right;">
                 <span class="uk-inline-block uk-margin-remove-bottom uk-icon-image uk-icon" style="background-image: url(images/calendar.png); color: #404040; filter: invert(100%);"></span>
                 <h4 class="uk-inline-block uk-text-bold uk-margin-remove-bottom uk-margin-remove-top uk-margin-small-left uk-margin-right" style="color: #404040;">19 to 22 January 2021</h4>
-            </div> -->
+            </div>
             <div class='uk-grid-collapse uk-child-width-expand uk-text-center uk-block' style="min-width: fit-content; background-color: #404040; height: min-content;" uk-grid>
                 <div class='uk-grid-collapse uk-child-width-expand@s uk-text-center uk-block' style="min-width: fit-content; background-color: #404040; height: min-content;" uk-grid>
                     <div class="uk-width-auto">
@@ -271,23 +312,23 @@
                             <p class='uk-text-bold uk-margin-remove-bottom uk-margin-small-top uk-margin-left uk-position-top-left' style='color: #808080; font-size: 80%;'>SLS coming on:</p>
                         </div>
                     </div>
-                    <!-- <div>
+                    <div>
                         <div class="uk-background-secondary uk-padding">
                             <h2 class='uk-text-bold uk-heading-small uk-margin-remove-bottom' style='color: #808080;' id='minutes'>--</h2>
                             <h3 class='uk-margin-remove-top uk-margin-remove-bottom' style='color: #808080;'>Minutes</h3>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 
-        <!-- welcome!!!!!! -->
+        <!-- welcome!!!!!! (main page) -->
 
 
-
-        <div id='body_content_0_s' class='uk-section uk-hidden@m'>
+        <!-- projects page -->
+        <!-- <div id='body_content_0_s' class='uk-section uk-hidden@m'>
             <div class="uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left">
                 <div id='ps_1' uk-scrollspy='cls: uk-animation-slide-right;'>
                     <div class='uk-margin-top uk-background-secondary uk-padding'>
@@ -329,8 +370,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
+        <!-- about SLS -->
         <div id='body_content_1' class='uk-section uk-margin-large-bottom uk-visible@m'>
             <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
                 <div id='icon_left' class='uk-width-auto'>
@@ -372,6 +414,7 @@
             </div> 
         </div>
 
+        <!-- about SLS(mobile) -->
         <div id='body_content_1_s' class='uk-section uk-hidden@m'>
             <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
                 
@@ -411,6 +454,7 @@
             </div> 
         </div>
 
+        <!-- principals message -->
         <div id='body_content_2' class='uk-section uk-margin-top uk-margin-large-bottom uk-padding-remove-top uk-visible@m'>
             <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right' uk-grid>
                 <div id='icon_left' class='uk-width-auto'>
@@ -469,6 +513,7 @@
             </div> 
         </div>
 
+        <!-- principals message(mobile) -->
         <div id='body_content_2_s' class='uk-section uk-hidden@m'>
             <div class='uk-grid uk-padding uk-margin-left uk-margin-remove-left' uk-grid>
                 
@@ -518,6 +563,7 @@
             </div> 
         </div>
 
+        <!-- chairpersons address -->
         <div id='body_content_3' class='uk-section uk-margin-top uk-visible@m uk-padding-remove-top'>
             <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right uk-padding-remove-bottom' uk-grid>
                 <div id='icon_left' class='uk-width-auto'>
@@ -557,6 +603,7 @@
             </div>
         </div>
         
+        <!-- chairpersons address(mobile) -->
         <div id='body_content_3_s' class='uk-section uk-hidden@m'>
             <div class='uk-grid uk-padding' uk-grid>
                 
@@ -589,7 +636,8 @@
             </div>    
         </div>   
 
-        <div id='body_content_4' class='uk-section uk-margin-top uk-visible@m uk-padding-remove-top'>
+        <!-- co chairs welcome (isyf) -->
+        <!-- <div id='body_content_4' class='uk-section uk-margin-top uk-visible@m uk-padding-remove-top'>
             <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-right uk-padding-remove-bottom' uk-grid>
                 <div id='icon_left' class='uk-width-auto'>
                     <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
@@ -638,9 +686,10 @@
                     <img style='padding-top: 5px; visibility: hidden;' data-src='images/logos/logo_green.png' height='75px' width="75px" uk-img>
                 </div> 
             </div>
-        </div>
+        </div> -->
         
-        <div id='body_content_4_s' class='uk-section uk-hidden@m'>
+        <!-- co chairs welcome (isyf) (mobile) -->
+        <!-- <div id='body_content_4_s' class='uk-section uk-hidden@m'>
             <div class='uk-grid uk-padding' uk-grid>
                 
                 <div class="uk-grid uk-width-expand uk-margin-left uk-margin-remove-left uk-padding-remove-left" uk-grid>
@@ -682,9 +731,9 @@
                 </div>
 
             </div>    
-        </div>
+        </div> -->
 
-        
+        <!-- about the logo -->
         <div id='body_content_5' class='uk-section'>
             <div class='uk-grid uk-padding uk-padding-remove-left uk-padding-remove-top uk-padding-remove-right uk-margin-left uk-margin-remove-left' uk-grid>
 
@@ -721,6 +770,10 @@
             </div>    
         </div>
 
+        <!-- speakers companies -->
+        <!-- our speakers come from here here here TODO -->
+
+        <!-- progs outline -->
         <h2 class='uk-text-bold' style='margin-left: 5.5vw'>Key events at a glance</h2>
         <p class='uk-text-large uk-text-bold uk-visible@m'><span style='margin-left: 5.5vw'>Tuesday</span><span style='margin-left: 15vw'>Wednesday</span><span style='margin-left: 11vw'>Thursday</span><span style='margin-left: 14vw'>Friday</span></p>
         <div class='uk-section uk-position-relative uk-padding-remove-top' style='min-width: 100vw;'>
@@ -1032,10 +1085,15 @@
                 </div>
             </div>
         </div>
-        <div class='uk-visible@m uk-margin-small-top uk-margin-large-left uk-padding uk-padding-remove-left' style="background-color: #404040; height: 30px;"><!--<h3 class='uk-margin-left uk-text-middle uk-text-bold' style='color: white'>Download the full programme outline <a style='color: white' href=""><u style='text-decoration-color: #00b5ff; border-bottom: 10px'>Here</u></a></h3><--></div>
-        <div class='uk-hidden@m uk-margin-large-left uk-padding uk-padding-remove-left' style="background-color: #404040; height: 5vw;"><!--<h5 class='uk-margin-left uk-text-middle uk-text-bold' style='color: white'>Download the full programme outline <a style='color: white' href=""><u style='text-decoration-color: #00b5ff; border-bottom: 10px'>Here</u></a></h5><--></div>
 
-        <div id="poster_1" class="uk-flex-top" uk-modal>
+        <!-- download the progs outline at [link] -->
+        <!-- <div class='uk-visible@m uk-margin-small-top uk-margin-large-left uk-padding uk-padding-remove-left' style="background-color: #404040; height: 30px;"><h3 class='uk-margin-left uk-text-middle uk-text-bold' style='color: white'>Download the full programme outline <a style='color: white' href=""><u style='text-decoration-color: #00b5ff; border-bottom: 10px'>Here</u></a></h3></div> -->
+
+        <!-- download the progs outline at [link] -->
+        <!-- <div class='uk-hidden@m uk-margin-large-left uk-padding uk-padding-remove-left' style="background-color: #404040; height: 5vw;"><h5 class='uk-margin-left uk-text-middle uk-text-bold' style='color: white'>Download the full programme outline <a style='color: white' href=""><u style='text-decoration-color: #00b5ff; border-bottom: 10px'>Here</u></a></h5></div> -->
+
+        <!-- posters -->
+        <!-- <div id="poster_1" class="uk-flex-top" uk-modal>
             <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical uk-padding-remove uk-width-expand">
         
                 <button class="uk-modal-close-default" type="button" uk-close></button>
@@ -1060,8 +1118,9 @@
                 <img class='poster_image_l' src="images/Posters/13.png" alt="" uk-img/>
 
             </div>
-        </div>
+        </div> -->
 
+        <!-- contact us -->
         <div class='uk-margin-medium-top uk-inline' style="background-color: #404040; width: 100%;">
             <div class="uk-align-center uk-margin-remove-bottom uk-margin-top uk-padding uk-margin-bottom" style="width: fit-content;">
                 <div class='uk-inline@m'>
@@ -1074,7 +1133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class='uk-inline@m'>
+                <!-- <div class='uk-inline@m'>
                     <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
                         <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-auto">
                             <span class='material-icons' style="color: white;">call</span>
@@ -1083,27 +1142,27 @@
                             <p class='uk-inline uk-light'>+65 6468 3955</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class='uk-inline@m'>
                     <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
                         <div class="uk-inline uk-flex uk-width-auto uk-margin-auto-vertical">
                             <span class='material-icons' style="color: white;">email</span>
                         </div>
                         <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-expand">
-                            <p class='uk-inline uk-light'>reach_isyf@student.hci.edu.sg</p>
+                            <p class='uk-inline uk-light'>xxx@</p>
                         </div>
                     </div>
                 </div>
-                <div class='uk-inline@m'>
+                <!-- <div class='uk-inline@m'>
                     <div class="uk-grid uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-bottom">
                         <div class="uk-inline uk-flex uk-margin-auto-vertical uk-width-auto">
-                            <span class='material-icons' style="color: white;">print</span>
+                            <span class='material-icons' style="color: white;">insta</span>
                         </div>
                         <div class="uk-inline uk-width-auto">
                             <p class='uk-inline uk-light'>Fax: 6769 5857</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="uk-padding-large uk-padding-remove-top uk-padding-remove-bottom">
                 <p class="uk-padding uk-text-center uk-padding-remove-top uk-padding-remove-bottom">This is the ISYF (International Science Youth Forum) 2021 website. Any advice and information found on the pages are solely for the event and educational purposes only. Information related to the speakers are displayed with their consent. <br><br> <span style="font-size: 80%;"> © International Science Youth Forum 2021. All rights reserved. </span> </p>
@@ -1111,6 +1170,7 @@
         </div>
 
         <script src='js/main.js'></script>
+        <!-- calculate date to event + reload page if window size changes -->
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 //The first argument are the elements to which the plugin shall be initialized
